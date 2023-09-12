@@ -17,7 +17,7 @@ navigator.mediaDevices
 
         const request = new XMLHttpRequest();
 
-        request.open('GET', 'https://gitknu.github.io/audio.mp3', true);
+        request.open('GET', 'https://gitknu.github.io/mp3/audio.mp3', true);
         request.responseType = 'arraybuffer';
         request.onload = () => {
             audioContext.decodeAudioData(
